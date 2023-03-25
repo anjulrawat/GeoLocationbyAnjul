@@ -1,0 +1,33 @@
+button{
+    background-color:blue;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 40%;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+#map{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+iframe{
+    width: 100%;
+    height: 150%;
+}
+.groupBtn{
+    position: relative;
+    display: flex;
+    left: 30%;
+    gap: 2vw;
+}
